@@ -1,6 +1,6 @@
 namePrefix: production-
-#commonLabels:
-#  variant: production
+commonLabels:
+  variant: production
 bases:
 - ../../base
 patchesStrategicMerge:
