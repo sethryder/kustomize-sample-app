@@ -1,13 +1,6 @@
 commonLabels:
   app: demo
-
-
-labels:
-    fields:
-      - kind: Deployment
-        path: spec/template/metadata/labels
-        create: true
-        
+  tags.datadoghq.com/version: why
 resources:
 - deployment.yaml
 - service.yaml
