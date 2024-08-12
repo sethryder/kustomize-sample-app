@@ -1,6 +1,13 @@
 commonLabels:
   app: demo
 
+
+labels:
+    fields:
+      - kind: Deployment
+        path: spec/template/metadata/labels
+        create: true
+        
 resources:
 - deployment.yaml
 - service.yaml
