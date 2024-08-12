@@ -1,12 +1,11 @@
 commonLabels:
   app: demo
-  dynamic-label: "{{ .head_sha | truncate 7 }}"
 
 resources:
 - deployment.yaml
 - service.yaml
 - configMap.yaml
-#- what.yaml
+- what.yaml
 
 #configurations:
 #- transformer.yaml
