@@ -1,6 +1,6 @@
 commonLabels:
   app: demo
-  tags.datadoghq.com/version: why
+  #tags.datadoghq.com/version: why
 resources:
 - deployment.yaml
 - service.yaml
