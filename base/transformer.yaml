@@ -1,0 +1,4 @@
+commonLabels:
+  - path: spec/template/metadata/labels
+    create: true
+    kind: Deployment
