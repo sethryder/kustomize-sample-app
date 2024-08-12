@@ -4,6 +4,7 @@ metadata:
   name: the-deployment
   labels:
     deployment: demo
+    tags.datadoghq.com/version: ""
 spec:
   replicas: 2
   template:
